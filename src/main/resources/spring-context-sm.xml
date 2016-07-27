@@ -18,7 +18,7 @@
 		<!-- <property name="cronExpression" value="0 0 6 * * ?" /> -->
 		 <property name="cronExpression" value="0 0/1 * * * ?" />  <!-- 每分钟 -->
 		<!--<property name="cronExpression" value="0/2 * * * * ?" />--> <!-- 每秒 -->
-	</bean>fe
+	</bean>
 
 	<!-- 方式2 -->
 	<bean id="exampleBusinessObject" class="com.cn.edu.util.TaskTwo" />
